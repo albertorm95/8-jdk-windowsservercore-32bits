@@ -47,3 +47,4 @@ RUN $url = ('https://github.com/ojdkbuild/ojdkbuild/releases/download/{0}/{1}' -
 WORKDIR /curl
 ADD https://skanthak.homepage.t-online.de/download/curl-7.58.0.cab curl.cab
 RUN expand /R curl.cab /F:* .
+WORKDIR /
